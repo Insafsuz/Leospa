@@ -1,0 +1,31 @@
+.description {
+	text-align: center;
+	&__title {
+		font-family: $Rufina;
+		font-size: 42px;
+		font-weight: 700;
+		margin: 0px 0px 38px 0px;
+		@media (max-width: 767px) {
+			font-size: 30px;
+			margin: 0px 0px 20px 0px;
+		}
+		@media (max-width: 424px) {
+			font-size: 26px;
+		}
+	}
+	&__text {
+		font-size: 15px;
+		color: $textColor;
+		line-height: 28px;
+		font-weight: 300;
+		max-width: 855px;
+		margin: 0px auto;
+		@media (max-width: 424px) {
+			font-size: 14px;
+		}
+	}
+}
+
+// POST
+
+// POST
